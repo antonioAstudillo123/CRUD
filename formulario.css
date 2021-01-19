@@ -1,0 +1,62 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+   background: black;
+}
+
+h1{
+   text-transform: capitalize;
+   color: yellow;
+   text-align: center;
+   font-family: 'Potta One', cursive;
+}
+
+.formulario{
+   background: white;
+   width: 300px;
+   height:500px;
+   margin: 0 auto;
+   border-radius: 50px;
+   margin-top: 50px;
+   padding: 20px;
+}
+
+.formulario label{
+   color:black;
+   width: 5px;
+   display: block;
+   margin-left: 40px;
+   margin-top: 70px;
+}
+
+.formulario input{
+   display: block;
+   float: left;
+
+}
+
+.formulario input[type="text"]{
+   padding: 5px;
+   margin-left: 10px;
+}
+
+.formulario input[type="text"]:first-child{
+  margin-top: 15px
+}
+
+
+.formulario input[type="submit"]{
+   padding: 10px;
+   margin-top: 20px;
+   margin-left: 27%;
+   background: green;
+   color:white;
+   border-radius: 10px;
+   font-weight: bold;
+}
+.formulario input[type="submit"]:hover{
+   background: #15B846;
+}
